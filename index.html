@@ -1,36 +1,79 @@
-<DOCTYPE>
+<!DOCTYPE>
 <html>
+
 <head>
-	<title>Class Website</title>
-	</head>
-	<body>
-		<header><h1>How to Make a Website Class</h1></header>
-			<nav>
-					<a href="/index.html">Home</a>
-							<a href="/about.html">About</a>
-									<a href="http://ralexanderson.com">My Website</a>
-										</nav>
-											<section>
-													<h3>Classes</h3>
-															<ol>
-																		<li><a href="https://s3-us-west-2.amazonaws.com/ralex93/blog/images/nFJvcqiKTBHsKKfEQ-undefined"><h4>The Web, HTML, CSS</h4></a>
-																						<ul>
-																											<li><a href="http://codepen.io">Codepen.io - Practice HTML & CSS in your browser</a></li>
-																																<li><a href="https://www.codecademy.com/learn/make-a-website">Codecademy - Make a Website course</a></li>
-																																					<li><a href="https://www.codeschool.com/learn/html-css">Codeschool - HTML/CSS Classes</a></li>
-																																										<li><a href="http://overapi.com">OverAPI.com - Programming Reference</a></li>
-																																															<li><a href="http://www.webdesignrepo.com">WebDesign Repo - tons of useful and interesting links</a></li>
-																																																				<li><a href="http://webfieldmanual.com">Web Field Manual - Articles and resources</a></li>
-																																																								</ul>
-																																																											</li>
-																																																													</ol>
-																																																														</section>
-																																																															<footer>
-																																																																	Copyright R. Alex Anderson 2016
-																																																																		</footer>
-																																																																		</body>
-																																																																		</html>
+    <title>Class Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+    html,
+    body {
+        height: 100%;
+    }
+    
+    .container {
+        min-height: 100%;
+    }
+    
+    section {
+        overflow: auto;
+        padding-bottom: 150px;
+        /* this needs to be bigger than footer height*/
+    }
+    
+    footer {
+        position: relative;
+        margin-top: -150px;
+        /* negative value of footer height */
+        height: 150px;
+        clear: both;
+        padding-top: 20px;
+    }
+    </style>
+</head>
 
+<body>
+    <div class="container">
+        <header>
+            <h1>How to Make a Website Class</h1>
+        </header>
+        <div class="col-sm-9">
+            <section>
+                <img src="https://s-media-cache-ak0.pinimg.com/236x/22/59/48/225948917cfcc1a575d76ee8ece68df9.jpg" style="float:right; border-radius: 50%" />
+                <h3>Classes</h3>
+                <ol>
+                    <li><a href="https://s3-us-west-2.amazonaws.com/ralex93/blog/images/nFJvcqiKTBHsKKfEQ-undefined"><h4>The Web, HTML, CSS</h4></a>
+                        <ul>
+                            <li><a href="http://codepen.io">Codepen.io - Practice HTML & CSS in your browser</a></li>
+                            <li><a href="https://www.codecademy.com/learn/make-a-website">Codecademy - Make a Website course</a></li>
+                            <li><a href="https://www.codeschool.com/learn/html-css">Codeschool - HTML/CSS Classes</a></li>
+                            <li><a href="http://overapi.com">OverAPI.com - Programming Reference</a></li>
+                            <li><a href="http://www.webdesignrepo.com">WebDesign Repo - tons of useful and interesting links</a></li>
+                            <li><a href="http://webfieldmanual.com">Web Field Manual - Articles and resources</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>HTML & CSS Applied</h3>
+                        <ul>
+                            <li><a href="http://csszengarden.com">CSS Zen Garden</a></li>
+                            <li><a href="http://getbootstrap.com">Bootstrap</a></li>
+                            <li><a href="http://foundation.zurb.com">Foundation</a></li>
+                            <li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">CSS Positioning and Float Tutorial</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <div class="col-sm-3">
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="http://ralexanderson.com">My Website</a>
+            </nav>
+        </div>
+        <footer>
+            Copyright R. Alex Anderson 2016
+        </footer>
+    </div>
+</body>
 
-																																																											
-
+</html>
